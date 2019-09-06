@@ -1,1 +1,1 @@
-please remove " signingConfigs" in build.gradle----------2019-9-6
+please remove " signingConfigs" in build.gradle----------2019-9-6（Deleted）
