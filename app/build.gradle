@@ -16,14 +16,7 @@ android {
             }
         }
     }
-    signingConfigs {
-        debug {
-            storeFile file("../signedApk/serialForSC60.jks")
-            storePassword '123456'
-            keyAlias 'south_lj'
-            keyPassword '123456'
-        }
-    }
+
     buildTypes {
         release {
             minifyEnabled false
