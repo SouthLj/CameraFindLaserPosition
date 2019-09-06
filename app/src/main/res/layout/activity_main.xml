@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/laser_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开激光"/>
+        <Button
+            android:id="@+id/single_meas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="单次测量"/>
+        <Button
+            android:id="@+id/continuous_meas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="连续测量"/>
+        <Button
+            android:id="@+id/quick_meas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快速测量"/>
+        <Button
+            android:id="@+id/stop_meas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止测量"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/display2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="距离:"/>
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="m"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="坐标："/>
+
+        <TextView
+            android:id="@+id/point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/laser_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
