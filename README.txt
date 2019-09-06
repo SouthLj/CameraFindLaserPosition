@@ -1,0 +1,1 @@
+please remove " signingConfigs" in build.gradle----------2019-9-6
